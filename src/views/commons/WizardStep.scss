@@ -1,0 +1,23 @@
+@import '../../styles/base.scss';
+
+.WizarStep {
+  &-header {
+    background-color: $silver;
+    // border: 1px solid $silver;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  &-body {
+    flex-grow: 1;
+  }
+  &-footer {
+    border: 1px solid silver;
+    height: 50px;
+  }
+  border: 1px solid silver;
+  height: calc(100vh - 40px);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}

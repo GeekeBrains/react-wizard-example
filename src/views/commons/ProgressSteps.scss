@@ -1,0 +1,87 @@
+@import '../../styles/base.scss';
+
+$shadow: 0px 0px 2px 0px;
+$stepWidth: 20px;
+$stepCurrentWidth: 30px;
+
+.ProgressSteps {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: auto;
+  &-step {
+    background-color: $silver-dark;
+    border: 1px solid $silver-dark;
+    border-radius: 25px;
+    width: $stepWidth;
+    height: $stepWidth;
+    padding: 5px;
+    line-height: 30px;
+    margin: auto;
+    box-shadow: $shadow;
+  }
+  &-step-text {
+    color: $white;
+    position: relative;
+    left: 7px;
+    top: -5px;
+    font-weight: bolder;
+  }
+  &-step-current {
+    background-color: $black;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 5px;
+    width: $stepCurrentWidth;
+    height: $stepCurrentWidth;
+    margin: auto;
+    box-shadow: $shadow;
+  }
+  &-step-text-current {
+    color: $white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bolder;
+  }
+  &-step-done {
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+    border-radius: 25px;
+    padding: 5px;
+    width: $stepWidth;
+    height: $stepWidth;
+    margin: auto;
+    box-shadow: $shadow;
+  }
+  &-step-text-done {
+    color: $white;
+    position: relative;
+    left: 8px;
+    top: 1px;
+    font-weight: bolder;
+  }
+
+  &-step-separator {
+    border: 1px solid $silver-dark;
+    width: 20px;
+    height: 0px;
+    margin: auto;
+    box-shadow: $shadow;
+  }
+  &-step-separator-done {
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+    width: 20px;
+    height: 0px;
+    margin: auto;
+    box-shadow: $shadow;
+  }
+  &-step-separator-current {
+    background-color: $black;
+    border: 1px solid $black;
+    width: 20px;
+    height: 0px;
+    margin: auto;
+    box-shadow: $shadow;
+  }
+}

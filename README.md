@@ -12,3 +12,11 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+# Nomenclatura
+
+Los componentes se importan al modo con {} para obligar que el nombre al importar coincida con el nombre del componente y evitar errores:
+
+import { DocPrueba } from './views/DocPrueba';
+
+Las páginas llevan el sufijo 'Page'.

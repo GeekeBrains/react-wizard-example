@@ -1,12 +1,9 @@
-@import '../../styles/base.scss';
+@import '../../config/colors.scss';
 
 .WizarStep {
   &-header {
-    background-color: $silver;
-    // border: 1px solid $silver;
-    height: 100px;
-    display: flex;
-    justify-content: center;
+    border: 1px solid $myColor;
+    height: 50px;
   }
   &-body {
     flex-grow: 1;

@@ -8,3 +8,20 @@ $blue: #41c3df;
 $orange: #f78b4f;
 $silver: #ccd5da;
 $silver-dark: #788f9c;
+
+h1 {
+  font-size: 1.17em;
+}
+h2 {
+  font-size: 1.1em;
+}
+p {
+  font-size: 1em;
+}
+
+.AlertText {
+  color: $primary-color;
+  font-size: 0.7em;
+  padding: 0;
+  margin: 0;
+}

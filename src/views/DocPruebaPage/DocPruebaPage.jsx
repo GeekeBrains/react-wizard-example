@@ -6,7 +6,6 @@ import Step2 from './Form';
 import Step3 from './Feedback';
 
 import './DocPruebaPage.scss';
-
 export function DocPruebaPage() {
   return (
     <div className="App">

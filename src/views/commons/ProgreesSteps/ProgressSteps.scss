@@ -1,4 +1,4 @@
-@import '../../styles/base.scss';
+@import '../../../styles/base.scss';
 
 $shadow: 0px 0px 2px 0px;
 $stepWidth: 20px;
@@ -16,16 +16,17 @@ $stepCurrentWidth: 30px;
     width: $stepWidth;
     height: $stepWidth;
     padding: 5px;
-    line-height: 30px;
+    // line-height: 30px;
     margin: auto;
     box-shadow: $shadow;
   }
   &-step-text {
     color: $white;
     position: relative;
-    left: 7px;
-    top: -5px;
+    // top: -5px;
     font-weight: bolder;
+    text-align: center;
+    left: 1px;
   }
   &-step-current {
     background-color: $black;
@@ -39,9 +40,10 @@ $stepCurrentWidth: 30px;
   }
   &-step-text-current {
     color: $white;
-    text-align: center;
     line-height: 30px;
     font-weight: bolder;
+    text-align: center;
+    left: 1px;
   }
   &-step-done {
     background-color: $primary-color;
@@ -56,9 +58,10 @@ $stepCurrentWidth: 30px;
   &-step-text-done {
     color: $white;
     position: relative;
-    left: 8px;
-    top: 1px;
+    // top: 1px;
     font-weight: bolder;
+    text-align: center;
+    left: 1px;
   }
 
   &-step-separator {

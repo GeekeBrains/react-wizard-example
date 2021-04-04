@@ -1,0 +1,27 @@
+{
+  "// Seleccionar el browser con el que quieres probar": "",
+  "browser": "chromium",
+  "// browser": "firefox",
+  "/// browser": "webkit",
+  "appUrl": "http://localhost:3000",
+  "headless": false,
+  "sizeType": "browserMin",
+  "sizes": {
+    "browserMin": {
+      "width": 800,
+      "height": 600
+    },
+    "iPhoneX": {
+      "width": 375,
+      "height": 812
+    },
+    "iPhone5": {
+      "width": 320,
+      "height": 568
+    },
+    "iPad": {
+      "width": 768,
+      "height": 1024
+    }
+  }
+}

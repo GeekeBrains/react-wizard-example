@@ -18,12 +18,12 @@ export function ProgressStep({ total, current }) {
     }
 
     steps.push(
-      <>
-        <div className={'ProgressSteps-step' + stepSufix} key={'keyStep' + i}>
+      <div className={'ProgressSteps'} key={'keyStep' + i}>
+        <div className={'ProgressSteps-step' + stepSufix}>
           <div className={'ProgressSteps-step-text' + stepSufix}>{i}</div>
         </div>
         {i !== total && <div className={'ProgressSteps-step-separator' + sepSufix} />}
-      </>,
+      </div>,
     );
   }
 

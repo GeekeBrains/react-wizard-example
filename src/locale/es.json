@@ -1,3 +1,39 @@
 {
-
+  "CrearPasswordWizard1": {
+    "h1": "Alta de la Cuenta Corriente OpenClose",
+    "bienvenida": "Bienvenida a la maravillosa cuenta, bla, bla bla...",
+    "mayor": "Soy mayor de edad",
+    "privacidad": "Acepto la política de privacidad"
+  },
+  "CrearPasswordWizard2": {
+    "h1": "Crea tu Password Manager",
+    "Cabeza": "Guarda aquí todas tus contraseñas, datos o culquier información, olvida las notas de papel y las aplicaciones no protegidas.",
+    "CajaFuerte": "Crea tu clave maestra: solo tú podrás acceder a tus secretos con ella.",
+    "ComoH2": "Cómo funciona",
+    "Como": "En primer lugar debes....",
+    "QueH2": "Qúe datos puedes guardas",
+    "Que": "Por ejemplo, el número de tu tarjeta, el PIN...."
+  },
+  "CrearPasswordWizard3": {
+    "h1": "Crea tu Password Manager",
+    "Primero": "En primer lugar, debes crear una contraseña diferentepara sus pertenencias electrónicas. No podrás recuperar tu contraseña, así que recuerdela bien.",
+    "Password": "Crea tu Contraseña Maestra",
+    "Password2": "Repite tu Contraseña Maestra",
+    "PasswordFailed": "La contraseña debe ser de entre 8 y 24 caracteres y al menos 1 número y una mayúscula.",
+    "PasswordIguales": "Las dos contraseñas deben ser iguales",
+    "Tambien": "Tambien puedes crear...",
+    "Pista": "Crea tu pista para reordar tu contraseña (opcional)",
+    "PistaFailed": "La pista debe tener menos de 255 caracteres."
+  },
+  "CrearPasswordWizard4": {
+    "TitleOk": "¡Tu Password Manager ya está creado!",
+    "TextOk": "Lorem ipsum....",
+    "ButtonOk": "Acceder >",
+    "TitleKo": "Ha habido un error.",
+    "TextKo": "Lorem ipsum....",
+    "ButtonKo": "Volver a Password Manager >"
+  },
+  "Cancelar": "Cancelar",
+  "Siguiente": "Siguiente",
+  "CampoObligatorio": "Campo obligatorio"
 }

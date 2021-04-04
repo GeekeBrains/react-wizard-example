@@ -14,7 +14,7 @@ Ejecutar en otro shell:
 Notas:
 
 - Los test se lanzan secuencialmente y se enlazan con PlayWright, un bridge que maneja el navegador y permite ejecutar el programa como si fuera un usuario real en un navegador real.
-- Se utiliza una librería intermedia llamada libs/MyBrowser de creación propia para abstraerse de PlayWright y simplificar algunas cosas.
+- Se utiliza una librería intermedia llamada libs/MyBrowser de creación propia para abstraerse de PlayWright y simplificar algunas utilidades como por ejemplo dejar pantallazos de los pasos de testeo en un ruta /test/snapshots.
 - Se puede configurar el navegador con el que se quiere probar y la resolución en el /config/myBrowserConfig.json.
 
 # Nomenclatura

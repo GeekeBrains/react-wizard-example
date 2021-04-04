@@ -3,6 +3,7 @@
 Ejecutar en el shell:
 
 > npm install
+
 > npm run start
 
 # Testear

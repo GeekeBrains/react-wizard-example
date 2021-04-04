@@ -13,13 +13,13 @@ Ejecutar en otro shell:
 
 Notas:
 
-- Los test se lanzan secuencialmente con PlayWright, bridge que permite ejecutar el programa como si fuera un usuario real contra una navegador real.
-- Utilizo una librería intermedia llamada libs/MyBrowser qye he creado yo mismo para abstraerme de PlayWright y simplificar algunas cosas.
+- Los test se lanzan secuencialmente y se enlazan con PlayWright, un bridge que maneja el navegador y permite ejecutar el programa como si fuera un usuario real en un navegador real.
+- Se utiliza una librería intermedia llamada libs/MyBrowser de creación propia para abstraerse de PlayWright y simplificar algunas cosas.
 - Se puede configurar el navegador con el que se quiere probar y la resolución en el /config/myBrowserConfig.json.
 
 # Nomenclatura
 
-He intentado seguir el estilo del proyecto base.
+Se ha intentado seguir el estilo del proyecto base.
 
 Los componentes se importan al modo con {} para obligar que el nombre al importar coincida con el nombre del componente y evitar errores:
 
@@ -29,4 +29,4 @@ Las páginas llevan el sufijo 'Page'.
 
 # Componentes
 
-Normalmente utilizaría laguna librería de componentes como Material UI, etc, pero entendí que para el proposito de la prueba no tenia sentido.
+Normalmente se habría utilizado alguna librería de componentes como Material UI, etc, pero para el proposito de la prueba se han evitado.

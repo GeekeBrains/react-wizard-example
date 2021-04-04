@@ -26,8 +26,8 @@ Los componentes se importan al modo con {} para obligar que el nombre al importa
 
 import { DocPrueba } from './views/DocPrueba';
 
-Las páginas llevan el sufijo 'Page'.
+Las páginas llevan el sufijo 'Page' el resto de componentes no llevan sufijo.
 
 # Componentes
 
-Normalmente se habría utilizado alguna librería de componentes como Material UI, etc, pero para el proposito de la prueba se han evitado.
+Normalmente se habrían utilizado alguna librería de componentes como Material UI, etc, pero para el proposito de la prueba se han evitado.

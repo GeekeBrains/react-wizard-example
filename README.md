@@ -30,4 +30,4 @@ Las páginas llevan el sufijo 'Page' el resto de componentes no llevan sufijo.
 
 # Componentes
 
-Normalmente se habrían utilizado alguna librería de componentes como Material UI, etc, pero para el proposito de la prueba se han evitado.
+Lo normal sería haber utilizado alguna librería de componentes como Material UI, etc, pero para el proposito de la prueba se han evitado.
